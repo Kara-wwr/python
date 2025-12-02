@@ -1,0 +1,16 @@
+               #var 1
+
+num = int(input('Ведите целое число: '))
+if num < 0:
+      num = -num
+elif num == 0:
+      num = 1
+print(num)
+
+
+s = input('Введите строку: ')
+if '.' in s or ',' ins:
+      print(True)
+else:
+      print(False)
+
